@@ -116,7 +116,7 @@ for article_1, article_2 in product(articles, articles):
 根据上图，我们不难发现，雷锋网和其他几篇文章的汉明距离都差的比较多，都远远超过3，其他文本之间汉明距离都相差不多，小于3，包括火球财经的那边修改过的文章．
 
 
-#　脚本使用
+# 脚本使用
 ```
 virtualenv python3.5 py35env
 py35env/bin/python -m pip install -r requirements.txt
